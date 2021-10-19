@@ -1,36 +1,36 @@
 [submodule "beethoven_piano_sonatas"]
 	path = beethoven_piano_sonatas
-	url = https://github.com/DCMLab/beethoven_piano_sonatas
+	url = git@github.com:DCMLab/beethoven_piano_sonatas.git
 	branch = main
 [submodule "chopin_mazurkas"]
 	path = chopin_mazurkas
-	url = https://github.com/DCMLab/chopin_mazurkas/
+	url = git@github.com:DCMLab/chopin_mazurkas.git
 	branch = main
 [submodule "debussy_suite_bergamasque"]
 	path = debussy_suite_bergamasque
-	url = https://github.com/DCMLab/debussy_suite_bergamasque
+	url = git@github.com:DCMLab/debussy_suite_bergamasque.git
 	branch = main
 [submodule "dvorak_silhouettes"]
 	path = dvorak_silhouettes
-	url = https://github.com/DCMLab/dvorak_silhouettes/
+	url = git@github.com:DCMLab/dvorak_silhouettes.git
 	branch = main
 [submodule "liszt_pelerinage"]
 	path = liszt_pelerinage
-	url = https://github.com/DCMLab/liszt_pelerinage/
+	url = git@github.com:DCMLab/liszt_pelerinage.git
 	branch = main
 [submodule "medtner_tales"]
 	path = medtner_tales
-	url = https://github.com/DCMLab/medtner_tales
+	url = git@github.com:DCMLab/medtner_tales.git
 	branch = main
 [submodule "schumann_kinderszenen"]
 	path = schumann_kinderszenen
-	url = https://github.com/DCMLab/schumann_kinderszenen
+	url = git@github.com:DCMLab/schumann_kinderszenen.git
 	branch = main
 [submodule "tchaikovsky_seasons"]
 	path = tchaikovsky_seasons
-	url = https://github.com/DCMLab/tchaikovsky_seasons
+	url = git@github.com:DCMLab/tchaikovsky_seasons.git
 	branch = main
 [submodule "grieg_lyrical_pieces"]
 	path = grieg_lyrical_pieces
-	url = https://github.com/DCMLab/grieg_lyrical_pieces
+	url = git@github.com:DCMLab/grieg_lyrical_pieces.git
 	branch = main

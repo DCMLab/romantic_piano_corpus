@@ -18,6 +18,16 @@ jobs:
           path: main
           submodules: recursive
           token: ${{ secrets.MS3_BOT_TOKEN }}
+      - name: Configure git and push updated workflow
+        working-directory: ./main
+        continue-on-error: true
+        run: |
+          git config --global user.name "ms3-bot"
+          git config --global user.email dcml.annotators@epfl.ch
+          git config --global user.token ${{ secrets.MS3_BOT_TOKEN }}
+          git add -A
+          git commit -m "Current version of workflows"
+          git push
       - name: Pull latest updates into submodules
         working-directory: ./main
         run: |
@@ -30,16 +40,6 @@ jobs:
           cp -r annotation_workflow_template-meta_corpora/. .
           rm -r annotation_workflow_template-meta_corpora/
           rm meta_corpora.zip
-      - name: Configure git and push updated workflow
-        working-directory: ./main
-        continue-on-error: true
-        run: |
-          git config --global user.name "ms3-bot"
-          git config --global user.email dcml.annotators@epfl.ch
-          git config --global user.token ${{ secrets.MS3_BOT_TOKEN }}
-          git add -A
-          git commit -m "Current version of workflows"
-          git push
       - name: Clone ms3
         uses: actions/checkout@v2
         with:

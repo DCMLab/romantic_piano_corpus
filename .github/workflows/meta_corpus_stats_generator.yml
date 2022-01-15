@@ -28,7 +28,7 @@ jobs:
       - name: Pull latest updates into submodules
         working-directory: ./main
         run: |
-          git submodule foreach "git checkout -f main | git clean -f | git pull --no-rebase --allow-unrelated-histories origin main"
+          git submodule foreach "git checkout -f main | git clean -xfd | git reset --hard | git submodule foreach --recursive git clean -xfd | git submodule deinit -f . | git submodule update --init --recursive"
       - name: Pull current workflow
         working-directory: ./main
         run: |

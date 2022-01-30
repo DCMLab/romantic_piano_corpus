@@ -9,7 +9,6 @@ from shutil import copy
 
 import corpusstats
 import pandas as pd
-from ms3 import resolve_dir
 
 INDEX_FNAME = "index.md"
 GANTT_FNAME = "gantt.md"
@@ -56,7 +55,14 @@ STYLE_FILE = """---
 
 
 
-
+def resolve_dir(d):
+    """ Resolves '~' to HOME directory and turns ``d`` into an absolute path.
+    """
+    if d is None:
+        return None
+    if '~' in d:
+        return os.path.expanduser(d)
+    return os.path.abspath(d)
 
 
 def write_to_file(args, filename, content_str):

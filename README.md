@@ -1,292 +1,343 @@
 
 
 # Overview
-|                                file_name                                |measures|labels|standard|                    annotators                    |                       reviewers                       |
-|-------------------------------------------------------------------------|-------:|-----:|--------|--------------------------------------------------|-------------------------------------------------------|
-|01-1                                                                     |     152|   241|2.2.0   |Lars & Ya-Chuan (2.2.0), John Heilig (2.3.0)      |AN                                                     |
-|01-2                                                                     |      61|   204|2.2.0   |Lars & Ya-Chuan                                   |Adrian Nagel                                           |
-|01-3                                                                     |      73|   132|2.3.0   |Daniel Grote (2.2.0), Adrian Nagel (2.3.0)        |Adrian Nagel                                           |
-|01-4                                                                     |     196|   355|2.2.0   |Daniel Grote                                      |Adrian Nagel                                           |
-|02-1                                                                     |     336|     0|        |                                                  |                                                       |
-|02-2                                                                     |      80|     0|        |                                                  |                                                       |
-|02-3                                                                     |      68|     0|        |                                                  |                                                       |
-|02-4                                                                     |     187|     0|        |                                                  |                                                       |
-|03-1                                                                     |     257|   487|2.3.0   |Lydia Carlisi (2.2.0), John Heilig (2.3.0)        |AN                                                     |
-|03-2                                                                     |      82|   233|2.2.0   |Lydia Carlisi                                     |                                                       |
-|03-3                                                                     |     127|   198|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |                                                       |
-|03-4                                                                     |     312|   794|2.2.0   |Lydia Carlisi                                     |                                                       |
-|04-1                                                                     |     362|     0|        |                                                  |                                                       |
-|04-2                                                                     |      90|     0|        |                                                  |                                                       |
-|04-3                                                                     |     150|     0|        |                                                  |                                                       |
-|04-4                                                                     |     186|     0|        |                                                  |                                                       |
-|05-1                                                                     |     284|   310|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                                                     |
-|05-2                                                                     |     112|   252|2.3.0   |Adrian Nagel (2.3.0)                              |                                                       |
-|05-3                                                                     |     122|   314|2.2.0   |Adrian Nagel                                      |                                                       |
-|06-1                                                                     |     202|   338|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB                                                     |
-|06-2                                                                     |     170|   236|2.3.0   |Gabriele Ortiz Würth (2.2.0), Adrian Nagel (2.3.0)|Johannes Hentschel                                     |
-|06-3                                                                     |     150|   308|2.3.0   |Adrian Nagel                                      |                                                       |
-|07-1                                                                     |     344|   527|2.3.0   |Lydia Carlisi (2.2.0), Amelia Brey (2.3.0)        |AB                                                     |
-|07-2                                                                     |      87|   218|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |                                                       |
-|07-3                                                                     |      86|    92|2.3.0   |Lydia Carlisi (2.2.0), Adrian Nagel (2.3.0)       |                                                       |
-|07-4                                                                     |     113|   266|2.2.0   |Lydia Carlisi                                     |                                                       |
-|08-1                                                                     |     310|   503|2.3.0   |Lydia Carlisi (2.2.0), John Heilig (2.3.0)        |AN                                                     |
-|08-2                                                                     |      73|   143|2.2.0   |Lydia Carlisi                                     |                                                       |
-|08-3                                                                     |     210|   364|2.2.0   |Lydia Carlisi                                     |                                                       |
-|09-1                                                                     |     161|   351|2.3.0   |Lydia Carlisi (2.2.0), Amelia Brey (2.3.0)        |AB, AN                                                 |
-|09-2                                                                     |     178|   231|2.2.0   |Lydia Carlisi                                     |                                                       |
-|09-3                                                                     |     131|   262|2.2.0   |Lydia Carlisi                                     |                                                       |
-|10-1                                                                     |     200|   355|2.3.0   |Daniel Grote (2.2.0), John Heilig (2.3.0)         |AN                                                     |
-|10-2                                                                     |      90|   353|2.2.0   |Daniel Grote                                      |                                                       |
-|10-3                                                                     |     254|   339|2.2.0   |Adrian Nagel                                      |                                                       |
-|11-1                                                                     |     199|     0|        |                                                  |                                                       |
-|11-2                                                                     |      77|     0|        |                                                  |                                                       |
-|11-3                                                                     |      46|     0|        |                                                  |                                                       |
-|11-4                                                                     |     199|     0|        |                                                  |                                                       |
-|12-1                                                                     |     219|     0|        |                                                  |                                                       |
-|12-2                                                                     |      95|     0|        |                                                  |                                                       |
-|12-3                                                                     |      75|     0|        |                                                  |                                                       |
-|12-4                                                                     |     170|     0|        |                                                  |                                                       |
-|13-1                                                                     |      88|     0|        |                                                  |                                                       |
-|13-2                                                                     |     147|     0|        |                                                  |                                                       |
-|13-3                                                                     |      26|     0|        |                                                  |                                                       |
-|13-4                                                                     |     285|     0|        |                                                  |                                                       |
-|14-1                                                                     |      69|     0|        |                                                  |                                                       |
-|14-2                                                                     |      60|     0|        |                                                  |                                                       |
-|14-3                                                                     |     201|     0|        |                                                  |                                                       |
-|15-1                                                                     |     462|     0|        |                                                  |                                                       |
-|15-2                                                                     |     103|     0|        |                                                  |                                                       |
-|15-3                                                                     |      94|     0|        |                                                  |                                                       |
-|15-4                                                                     |     210|     0|        |                                                  |                                                       |
-|16-1                                                                     |     325|   303|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                                                     |
-|16-2                                                                     |     119|   285|2.2.0   |Adrian Nagel                                      |                                                       |
-|16-3                                                                     |     275|   703|2.2.0   |Adrian Nagel                                      |                                                       |
-|17-1                                                                     |     228|   352|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                                                     |
-|17-2                                                                     |     103|   223|2.3.0   |Adrian Nagel (2.3.0)                              |                                                       |
-|17-3                                                                     |     399|   460|2.3.0   |Adrian Nagel (2.3.0)                              |                                                       |
-|18-1                                                                     |     253|   269|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                                                     |
-|18-2                                                                     |     169|   273|2.3.0   |Adrian Nagel (2.3.0)                              |                                                       |
-|18-3                                                                     |      61|   178|2.3.0   |Adrian Nagel (2.3.0)                              |                                                       |
-|18-4                                                                     |     333|   412|2.3.0   |Adrian Nagel (2.3.0)                              |                                                       |
-|19-1                                                                     |     110|   193|2.3.0   |Daniel Grote (2.2.0), Hanné Becker (2.3.0)        |AN (2.2.0 + 2.3.0)                                     |
-|19-2                                                                     |     164|   385|2.2.0   |Daniel Grote                                      |Adrian Nagel                                           |
-|20-1                                                                     |     122|   286|2.3.0   |Lydia Carlisi (2.2.0), John Heilig (2.3.0)        |AN                                                     |
-|20-2                                                                     |     120|   168|2.2.0   |Lydia Carlisi                                     |                                                       |
-|21-1                                                                     |     302|   616|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB, AN                                                 |
-|21-2                                                                     |      28|    82|2.2.0   |Adrian Nagel                                      |                                                       |
-|21-3                                                                     |     543|   739|2.2.0   |Adrian Nagel                                      |                                                       |
-|23-1                                                                     |     262|   434|2.3.0   |Daniel Grote (2.2.0), Hanné Becker (2.3.0)        |AN                                                     |
-|23-2                                                                     |      97|   220|2.2.0   |Daniel Grote                                      |                                                       |
-|23-3                                                                     |     361|   396|2.2.0   |Daniel Grote                                      |                                                       |
-|24-1                                                                     |     105|   286|2.3.0   |Adrian Nagel (2.2.0), Hanné Becker (2.3.0)        |AN                                                     |
-|24-2                                                                     |     183|   317|2.3.0   |Adrian Nagel (2.3.0)                              |                                                       |
-|26-1                                                                     |     255|   537|2.3.0   |Adrian Nagel (2.2.0), John Heilig (2.3.0)         |AN                                                     |
-|26-2                                                                     |      42|   127|2.3.0   |Adrian Nagel (2.3.0)                              |                                                       |
-|26-3                                                                     |     196|   316|2.2.0   |Adrian Nagel                                      |                                                       |
-|30-1                                                                     |      99|   252|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB, AN                                                 |
-|30-2                                                                     |     177|   320|2.2.0   |Adrian Nagel                                      |                                                       |
-|30-3                                                                     |     203|   656|2.3.0   |Adrian Nagel (2.3.0)                              |                                                       |
-|31-1                                                                     |     116|   339|2.3.0   |Adrian Nagel (2.2.0), John Heilig (2.3.0)         |AN                                                     |
-|31-2                                                                     |     158|   200|2.2.0   |Adrian Nagel                                      |                                                       |
-|31-3                                                                     |     212|   662|2.2.0   |Adrian Nagel                                      |                                                       |
-|32-1                                                                     |     157|   576|2.3.0   |Adrian Nagel (2.2.0), Amelia Brey (2.3.0)         |AB, AN                                                 |
-|32-2                                                                     |     177|   895|2.2.0   |Adrian Nagel                                      |                                                       |
-|BI105-2op30-2                                                            |      64|   132|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI105-3op30-3                                                            |      95|   171|2.1.1   |Wendelin Bitzan                                   |JH (1-72), AN                                          |
-|BI105-4op30-4                                                            |     139|   241|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI115-1op33-1                                                            |      48|    85|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI115-2op33-2                                                            |     135|   200|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI115-3op33-3                                                            |      48|   120|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI115-4op33-4                                                            |     224|   390|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI122op41-2                                                              |      68|   143|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI126-1op41-4                                                            |      74|   152|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI126-3op41-1                                                            |     139|   252|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI126-4op41-3                                                            |      78|   132|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI134                                                                    |     112|   327|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI140                                                                    |     131|   239|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI145-1op50-1                                                            |     104|   225|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI145-2op50-2                                                            |     103|   162|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI145-3op50-3                                                            |     192|   379|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI153-1op56-1                                                            |     204|   477|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI153-2op56-2                                                            |      84|   174|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI153-3op56-3                                                            |     220|   532|2.1.1   |Wendelin Bitzan                                   |AN                                                     |
-|BI157-1op59-1                                                            |     130|   279|2.1.1   |Wendelin Bitzan                                   |AN                                                     |
-|BI157-2op59-2                                                            |     111|   236|2.1.1   |Wendelin Bitzan                                   |AN                                                     |
-|BI157-3op59-3                                                            |     154|   374|2.1.1   |Wendelin Bitzan                                   |AN                                                     |
-|BI16-1                                                                   |      32|    55|1.0.0   |Wendelin Bitzan                                   |                                                       |
-|BI16-2                                                                   |      32|    51|2.3.0   |Wendelin Bitzan                                   |                                                       |
-|BI162-1op63-1                                                            |     102|   205|2.1.1   |Wendelin Bitzan                                   |AN                                                     |
-|BI162-2op63-2                                                            |      56|    91|2.1.1   |Wendelin Bitzan                                   |AN                                                     |
-|BI162-3op63-3                                                            |      76|   169|2.1.1   |Wendelin Bitzan                                   |AN                                                     |
-|BI163op67-4                                                              |      80|   145|2.1.1   |Wendelin Bitzan                                   |AN                                                     |
-|BI167op67-2                                                              |      56|    80|2.1.1   |Wendelin Bitzan                                   |AN                                                     |
-|BI168op68-4                                                              |      40|    97|2.1.1   |Wendelin Bitzan                                   |AN                                                     |
-|BI18op68-2                                                               |      64|   114|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI34op68-3                                                               |      60|    99|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI38op68-1                                                               |      73|   140|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI60-1op06-1                                                             |      72|   196|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI60-2op06-2                                                             |      72|    85|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI60-3op06-3                                                             |      90|   148|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI60-4op06-4                                                             |      24|    58|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI61-1op07-1                                                             |      64|    96|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI61-2op07-2                                                             |      56|   115|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI61-3op07-3                                                             |     105|   206|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI61-4op07-4                                                             |      44|   103|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI61-5op07-5                                                             |      20|    38|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI71                                                                     |      68|   170|        |                                                  |                                                       |
-|BI73                                                                     |      32|    63|1.0.0   |Wendelin Bitzan                                   |                                                       |
-|BI77-1op17-1                                                             |      60|   119|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI77-2op17-2                                                             |      68|   178|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI77-3op17-3                                                             |      81|   214|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI77-4op17-4                                                             |     132|   223|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI85                                                                     |      57|   103|        |                                                  |                                                       |
-|BI89-1op24-1                                                             |      64|   122|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|BI89-2op24-2                                                             |     120|   226|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI89-3op24-3                                                             |      43|    63|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI89-4op24-4                                                             |     146|   280|2.1.1   |Wendelin Bitzan                                   |JH (1-34), AN                                          |
-|BI93-1op67-1                                                             |      60|    93|2.1.1   |Wendelin Bitzan                                   |JH                                                     |
-|BI93-2op67-3                                                             |      56|    93|2.1.1   |Wendelin Bitzan                                   |JH, AN                                                 |
-|Debussy_Suite_Bergamasque_1_Prelude                                      |      89|   275|2.1.1   |Adrian Nagel                                      |                                                       |
-|Debussy_Suite_Bergamasque_2_Menuet                                       |     104|   306|2.1.1   |Adrian Nagel                                      |                                                       |
-|Debussy_Suite_Bergamasque_3_Claire_de_Lune                               |      72|   150|2.1.1   |Adrian Nagel                                      |                                                       |
-|Debussy_Suite_Bergamasque_4_Passepied                                    |     156|   285|2.1.1   |Adrian Nagel                                      |                                                       |
-|op08n01                                                                  |      52|    80|2.3.0   |Daniel Grote (2.1.1), Hanné Becker (2.3.0)        |Johannes Hentschel (2.1.1), AN                         |
-|op08n02                                                                  |      15|    67|2.3.0   |Daniel Grote (2.1.1), Hanné Becker (2.3.0)        |Johannes Hentschel (2.1.1), AN                         |
-|op08n03                                                                  |      72|   238|2.3.0   |Daniel Grote (2.1.1), Hanné Becker (2.3.0)        |Johannes Hentschel (2.1.1)                             |
-|op08n04                                                                  |      59|   136|2.3.0   |Adrian Nagel (2.1.1), Hanné Becker (2.3.0)        |Adrian Nagel (2.1.1)                                   |
-|op08n05                                                                  |      80|   139|2.3.0   |Adrian Nagel (2.1.1), Hanné Becker (2.3.0)        |Adrian Nagel (2.1.1)                                   |
-|op08n06                                                                  |      60|   113|2.3.0   |Adrian Nagel (2.1.1), Hanné Becker (2.3.0)        |Adrian Nagel (2.1.1)                                   |
-|op08n07                                                                  |      38|   167|2.3.0   |Adrian Nagel (2.1.1), Hanné Becker (2.3.0)        |Adrian Nagel (2.1.1)                                   |
-|op08n08                                                                  |      57|   100|2.3.0   |Adrian Nagel (2.1.1), Hanné Becker (2.3.0)        |Adrian Nagel (2.1.1.)                                  |
-|op08n09                                                                  |      61|    97|2.3.0   |Adrian Nagel (2.1.1), Hanné Becker (2.3.0)        |Adrian Nagel (2.1.1)                                   |
-|op08n10                                                                  |      58|   104|2.3.0   |Adrian Nagel (2.1.1), Hanné Becker (2.3.0)        |Adrian Nagel (2.1.1)                                   |
-|op08n11                                                                  |      44|    88|2.3.0   |Adrian Nagel (2.1.1), Hanné Becker (2.3.0)        |Adrian Nagel (2.1.1)                                   |
-|op08n12                                                                  |      78|   210|2.3.0   |Adrian Nagel (2.1.1), Hanné Becker (2.3.0)        |Adrian Nagel (2.1.1)                                   |
-|op12n01                                                                  |      23|    43|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.30)          |Adrian Nagel                                           |
-|op12n02                                                                  |      79|   125|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op12n03                                                                  |      52|   110|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op12n04                                                                  |      72|    97|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op12n05                                                                  |      40|   109|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)         |Adrian Nagel                                           |
-|op12n06                                                                  |      56|   123|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op12n07                                                                  |      56|    90|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op12n08                                                                  |      32|    78|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op38n01                                                                  |      86|   141|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)         |Adrian Nagel                                           |
-|op38n02                                                                  |      41|    47|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op38n03                                                                  |      48|   100|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op38n04                                                                  |      36|    66|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op38n05                                                                  |      41|    70|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op38n06                                                                  |      47|   104|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op38n07                                                                  |      53|    53|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op38n08                                                                  |      84|   129|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op43n01                                                                  |      42|    89|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op43n02                                                                  |      30|   106|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op43n03                                                                  |      35|   106|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op43n04                                                                  |      36|    52|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op43n05                                                                  |      36|   107|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op43n06                                                                  |      72|   124|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op47n01                                                                  |     184|   134|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op47n02                                                                  |     126|   207|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op47n03                                                                  |     106|    91|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op47n04                                                                  |      38|    21|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op47n05                                                                  |      41|   112|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op47n06                                                                  |      74|    79|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op47n07                                                                  |      97|   147|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op54n01                                                                  |      61|   108|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op54n02                                                                  |     159|   312|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op54n03                                                                  |     194|   269|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op54n04                                                                  |      63|    92|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op54n05                                                                  |     204|   117|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op54n06                                                                  |      90|   171|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op57n01                                                                  |     146|   356|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op57n02                                                                  |     125|   214|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op57n03                                                                  |      67|   161|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op57n04                                                                  |      92|   119|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op57n05                                                                  |     169|   230|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op57n06                                                                  |      95|   172|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op62n01                                                                  |      90|    72|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op62n02                                                                  |      81|   171|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op62n03                                                                  |      65|    93|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op62n04                                                                  |      81|    96|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op62n05                                                                  |      62|    45|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op62n06                                                                  |     150|   155|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op65n01                                                                  |     173|   209|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op65n02                                                                  |      26|   125|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op65n03                                                                  |      58|    89|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op65n04                                                                  |      71|   100|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op65n05                                                                  |      48|   126|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op65n06                                                                  |     179|   229|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op68n01                                                                  |      56|   158|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op68n02                                                                  |      88|   172|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op68n03                                                                  |     114|   134|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op68n04                                                                  |      90|    83|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op68n05                                                                  |      43|   103|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op68n06                                                                  |     202|   190|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op71n01                                                                  |      95|   175|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op71n02                                                                  |      54|    99|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op71n03                                                                  |      79|    71|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op71n04                                                                  |      77|    80|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op71n05                                                                  |      98|   150|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op71n06                                                                  |      32|   131|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|op71n07                                                                  |      74|    75|2.1.1   |Adrian Nagel                                      |Adrian Nagel                                           |
-|160.01_Chapelle_de_Guillaume_Tell                                        |      97|   174|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)         |Johannes Hentschel (1-33 & 82-97), AB, AN              |
-|160.02_Au_Lac_de_Wallenstadt                                             |     112|    84|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)         |JH (1-70 & 106-112); AB; AN                            |
-|160.03_Pastorale                                                         |      48|   200|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)         |JH, AB, AN                                             |
-|160.04_Au_Bord_dUne_Source                                               |      66|   465|2.3.0   |Adrian Nagel (2.1.1), Amelia Brey (2.3.0)         |JH (1-13 & 34-43 & 57-66), AB, AN                      |
-|160.05_Orage                                                             |     160|   307|2.1.1   |Adrian Nagel                                      |Johannes Hentschel (1-50)                              |
-|160.06_Vallee_dObermann                                                  |     216|   630|2.1.1   |Adrian Nagel                                      |Johannes Hentschel (1-55 & 75-100 & 175-200)           |
-|160.07_Eglogue                                                           |     117|   215|2.1.1   |Adrian Nagel                                      |Johannes Hentschel (1-57 & 100-117)                    |
-|160.08_Le_Mal_du_Pays_(Heimweh)                                          |      70|   206|2.1.1   |Adrian Nagel                                      |Johannes Hentschel (1-34 & 61-70)                      |
-|160.09_Les_Cloches_de_Geneve_(Nocturne)                                  |     188|   205|2.1.1   |Adrian Nagel                                      |Johannes Hentschel (1-76 & 140-188)                    |
-|161.01_Sposalizio                                                        |     133|   237|2.1.1   |Adrian Nagel                                      |Johannes Hentschel                                     |
-|161.02_Il_Pensieroso                                                     |      48|    88|2.3.0   |Adrian Nagel                                      |AB                                                     |
-|161.03_Canzonetta_del_Salvator_Rosa                                      |      75|   274|2.3.0   |Adrian Nagel                                      |AB                                                     |
-|161.04_Sonetto_47_del_Petrarca                                           |      95|   153|2.3.0   |Adrian Nagel                                      |AB                                                     |
-|161.05_Sonetto_104_del_Petrarca                                          |      79|   121|2.3.0   |AN                                                |                                                       |
-|161.06_Sonetto_123_del_Petrarca                                          |      84|   149|2.3.0   |Adrian Nagel                                      |AB                                                     |
-|161.07_Apres_une_lecture_du_Dante                                        |     374|   632|2.3.0   |Adrian Nagel                                      |AB                                                     |
-|162.01_Gondoliera                                                        |     125|   121|2.3.0   |Adrian Nagel                                      |                                                       |
-|162.02_Canzone                                                           |      60|    98|2.3.0   |AN                                                |                                                       |
-|162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana|     479|   762|2.1.1   |Adrian Nagel                                      |Johannes Hentschel (1-76 & 200-220 & 300-320 & 447-479)|
-|op08n01                                                                  |      81|   255|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op14n01                                                                  |      85|   274|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op26n01                                                                  |      47|   199|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op26n02                                                                  |      65|   177|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op26n03                                                                  |      81|   143|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op26n04                                                                  |      77|   275|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op34n01                                                                  |     237|   681|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op34n02                                                                  |      48|   215|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op34n03                                                                  |     144|   425|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op34n04                                                                  |      61|   365|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op35n01                                                                  |      75|   266|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op35n02                                                                  |     139|   382|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op35n03                                                                  |      80|   325|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op35n04                                                                  |     122|   470|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op42n01                                                                  |     134|   515|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op42n02                                                                  |      67|   205|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op42n03                                                                  |     182|   552|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op48n01                                                                  |     553|  1020|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|op48n02                                                                  |     186|   307|2.2.0   |Wendelin Bitzan                                   |Adrian Nagel                                           |
-|n01                                                                      |      22|    44|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)            |AN, JHei, JH                                           |
-|n02                                                                      |      40|   123|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)            |AN, JHei, JH                                           |
-|n03                                                                      |      31|    58|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)            |AN, JHei, JH                                           |
-|n04                                                                      |      17|    53|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)            |AN, JHei, JH                                           |
-|n05                                                                      |      16|    48|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)            |AN, JHei, JH                                           |
-|n06                                                                      |      24|    84|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)            |AN, JHei                                               |
-|n07                                                                      |      24|    71|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)            |AN, JHei                                               |
-|n08                                                                      |      32|    73|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)            |AN, JHei                                               |
-|n09                                                                      |      24|    46|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)            |AN. JHei                                               |
-|n10                                                                      |      57|    67|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)            |AN, JHei                                               |
-|n11                                                                      |      48|   140|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)            |AN, JHei                                               |
-|n12                                                                      |      32|    92|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)            |AN, JHei                                               |
-|n13                                                                      |      25|    49|2.3.0   |Tal Soker (2.1.1), John Heilig (2.3.0)            |AN, JHei                                               |
-|op37a01                                                                  |     103|   313|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)         |Johannes Hentschel, AN                                 |
-|op37a02                                                                  |     169|   292|2.1.1   |Adrian Nagel                                      |Johannes Hentschel                                     |
-|op37a03                                                                  |      46|   119|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)         |Johannes Hentschel, AN                                 |
-|op37a04                                                                  |      86|   210|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)         |Johannes Hentschel, AN                                 |
-|op37a05                                                                  |      88|   193|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)         |Johannes Hentschel, AN                                 |
-|op37a06                                                                  |      99|   258|2.1.1   |Adrian Nagel                                      |Johannes Hentschel                                     |
-|op37a07                                                                  |      56|   179|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)         |Johannes Hentschel, AN                                 |
-|op37a08                                                                  |     198|   514|2.3.0   |Adrian Nagel (2.1.1), John Heilig (2.3.0)         |Johannes Hentschel, AN                                 |
-|op37a09                                                                  |      90|   368|2.1.1   |Adrian Nagel                                      |Johannes Hentschel                                     |
-|op37a10                                                                  |      56|   189|2.1.1   |Adrian Nagel                                      |Johannes Hentschel                                     |
-|op37a11                                                                  |      83|   162|2.1.1   |Adrian Nagel                                      |Johannes Hentschel                                     |
-|op37a12                                                                  |     176|   262|2.1.1   |Adrian Nagel                                      |Johannes Hentschel                                     |
+
+## beethoven_piano_sonatas
+
+|fnames|last_mn|label_count|harmony_version|
+|------|------:|----------:|---------------|
+|01-1  |    152|        241|2.2.0          |
+|01-2  |     61|        204|2.2.0          |
+|01-3  |     73|        132|2.3.0          |
+|01-4  |    196|        355|2.2.0          |
+|02-1  |    336|          0|               |
+|02-2  |     80|          0|               |
+|02-3  |     68|          0|               |
+|02-4  |    187|          0|               |
+|03-1  |    257|        487|2.3.0          |
+|03-2  |     82|        233|2.2.0          |
+|03-3  |    127|        198|2.3.0          |
+|03-4  |    312|        794|2.2.0          |
+|04-1  |    362|          0|               |
+|04-2  |     90|          0|               |
+|04-3  |    150|          0|               |
+|04-4  |    186|          0|               |
+|05-1  |    284|        310|2.3.0          |
+|05-2  |    112|        252|2.3.0          |
+|05-3  |    122|        314|2.2.0          |
+|06-1  |    202|        338|2.3.0          |
+|06-2  |    170|        236|2.3.0          |
+|06-3  |    150|        309|2.2.0          |
+|07-1  |    344|        527|2.3.0          |
+|07-2  |     87|        217|2.2.0          |
+|07-3  |     86|         90|2.2.0          |
+|07-4  |    113|        266|2.2.0          |
+|08-1  |    310|        503|2.3.0          |
+|08-2  |     73|        143|2.2.0          |
+|08-3  |    210|        364|2.2.0          |
+|09-1  |    161|        351|2.3.0          |
+|09-2  |    178|        231|2.2.0          |
+|09-3  |    131|        262|2.2.0          |
+|10-1  |    200|        355|2.3.0          |
+|10-2  |     90|        353|2.2.0          |
+|10-3  |    254|        339|2.2.0          |
+|11-1  |    199|          0|               |
+|11-2  |     77|          0|               |
+|11-3  |     46|          0|               |
+|11-4  |    199|          0|               |
+|12-1  |    219|          0|               |
+|12-2  |     95|          0|               |
+|12-3  |     75|          0|               |
+|12-4  |    170|          0|               |
+|13-1  |     88|          0|               |
+|13-2  |    147|          0|               |
+|13-3  |     26|          0|               |
+|13-4  |    285|          0|               |
+|14-1  |     69|          0|               |
+|14-2  |     60|          0|               |
+|14-3  |    201|          0|               |
+|15-1  |    462|          0|               |
+|15-2  |    103|          0|               |
+|15-3  |     94|          0|               |
+|15-4  |    210|          0|               |
+|16-1  |    325|        303|2.3.0          |
+|16-2  |    119|        285|2.2.0          |
+|16-3  |    275|        703|2.2.0          |
+|17-1  |    228|        352|2.3.0          |
+|17-2  |    103|        223|2.3.0          |
+|17-3  |    399|        460|2.3.0          |
+|18-1  |    253|        269|2.3.0          |
+|18-2  |    169|        273|2.3.0          |
+|18-3  |     61|        178|2.2.0          |
+|18-4  |    333|        455|2.2.0          |
+|19-1  |    110|        193|2.3.0          |
+|19-2  |    164|        385|2.2.0          |
+|20-1  |    122|        286|2.3.0          |
+|20-2  |    120|        168|2.2.0          |
+|21-1  |    302|        616|2.3.0          |
+|21-2  |     28|         82|2.2.0          |
+|21-3  |    543|        739|2.2.0          |
+|23-1  |    262|        434|2.3.0          |
+|23-2  |     97|        220|2.2.0          |
+|23-3  |    361|        396|2.2.0          |
+|24-1  |    105|        286|2.3.0          |
+|24-2  |    183|        317|2.3.0          |
+|26-1  |    255|        537|2.3.0          |
+|26-2  |     42|        127|2.2.0          |
+|26-3  |    196|        316|2.2.0          |
+|30-1  |     99|        252|2.3.0          |
+|30-2  |    177|        320|2.2.0          |
+|30-3  |    203|        656|2.3.0          |
+|31-1  |    116|        339|2.3.0          |
+|31-2  |    158|        200|2.2.0          |
+|31-3  |    212|        662|2.2.0          |
+|32-1  |    157|        576|2.3.0          |
+|32-2  |    177|        869|2.3.0          |
+
+
+## chopin_mazurkas
+
+|   fnames    |last_mn|label_count|harmony_version|
+|-------------|------:|----------:|---------------|
+|BI105-2op30-2|     64|        132|2.1.1          |
+|BI105-3op30-3|     95|        171|2.1.1          |
+|BI105-4op30-4|    139|        241|2.1.1          |
+|BI115-1op33-1|     48|         85|2.1.1          |
+|BI115-2op33-2|    135|        200|2.1.1          |
+|BI115-3op33-3|     48|        120|2.1.1          |
+|BI115-4op33-4|    224|        390|2.1.1          |
+|BI122op41-2  |     68|        143|2.1.1          |
+|BI126-1op41-4|     74|        152|2.1.1          |
+|BI126-3op41-1|    139|        252|2.1.1          |
+|BI126-4op41-3|     78|        132|2.1.1          |
+|BI134        |    112|        327|2.1.1          |
+|BI140        |    131|        239|2.1.1          |
+|BI145-1op50-1|    104|        225|2.1.1          |
+|BI145-2op50-2|    103|        162|2.1.1          |
+|BI145-3op50-3|    192|        379|2.1.1          |
+|BI153-1op56-1|    204|        477|2.1.1          |
+|BI153-2op56-2|     84|        174|2.1.1          |
+|BI153-3op56-3|    220|        532|2.1.1          |
+|BI157-1op59-1|    130|        279|2.1.1          |
+|BI157-2op59-2|    111|        236|2.1.1          |
+|BI157-3op59-3|    154|        374|2.1.1          |
+|BI16-1       |     32|         55|1.0.0          |
+|BI16-2       |     32|         51|2.3.0          |
+|BI162-1op63-1|    102|        205|2.1.1          |
+|BI162-2op63-2|     56|         91|2.1.1          |
+|BI162-3op63-3|     76|        169|2.1.1          |
+|BI163op67-4  |     80|        145|2.1.1          |
+|BI167op67-2  |     56|         80|2.1.1          |
+|BI168op68-4  |     40|         97|2.1.1          |
+|BI18op68-2   |     64|        114|2.1.1          |
+|BI34op68-3   |     60|         99|2.1.1          |
+|BI38op68-1   |     73|        140|2.1.1          |
+|BI60-1op06-1 |     72|        196|2.1.1          |
+|BI60-2op06-2 |     72|         85|2.1.1          |
+|BI60-3op06-3 |     90|        148|2.1.1          |
+|BI60-4op06-4 |     24|         58|2.1.1          |
+|BI61-1op07-1 |     64|         96|2.1.1          |
+|BI61-2op07-2 |     56|        115|2.1.1          |
+|BI61-3op07-3 |    105|        206|2.1.1          |
+|BI61-4op07-4 |     44|        103|2.1.1          |
+|BI61-5op07-5 |     20|         38|2.1.1          |
+|BI71         |     68|        170|               |
+|BI73         |     32|         63|1.0.0          |
+|BI77-1op17-1 |     60|        119|2.1.1          |
+|BI77-2op17-2 |     68|        178|2.1.1          |
+|BI77-3op17-3 |     81|        214|2.1.1          |
+|BI77-4op17-4 |    132|        223|2.1.1          |
+|BI85         |     57|        103|               |
+|BI89-1op24-1 |     64|        122|2.1.1          |
+|BI89-2op24-2 |    120|        226|2.1.1          |
+|BI89-3op24-3 |     43|         63|2.1.1          |
+|BI89-4op24-4 |    146|        280|2.1.1          |
+|BI93-1op67-1 |     60|         93|2.1.1          |
+|BI93-2op67-3 |     56|         93|2.1.1          |
+
+
+## debussy_suite_bergamasque
+
+|                  fnames                  |last_mn|label_count|harmony_version|
+|------------------------------------------|------:|----------:|---------------|
+|Debussy_Suite_Bergamasque_1_Prelude       |     89|        275|2.1.1          |
+|Debussy_Suite_Bergamasque_2_Menuet        |    104|        306|2.1.1          |
+|Debussy_Suite_Bergamasque_3_Claire_de_Lune|     72|        150|2.1.1          |
+|Debussy_Suite_Bergamasque_4_Passepied     |    156|        285|2.1.1          |
+
+
+## dvorak_silhouettes
+
+|fnames |last_mn|label_count|harmony_version|
+|-------|------:|----------:|---------------|
+|op08n01|     52|         80|2.3.0          |
+|op08n02|     15|         67|2.3.0          |
+|op08n03|     72|        238|2.3.0          |
+|op08n04|     59|        136|2.3.0          |
+|op08n05|     80|        139|2.3.0          |
+|op08n06|     60|        113|2.3.0          |
+|op08n07|     38|        167|2.3.0          |
+|op08n08|     57|        100|2.3.0          |
+|op08n09|     61|         97|2.3.0          |
+|op08n10|     58|        104|2.3.0          |
+|op08n11|     44|         88|2.3.0          |
+|op08n12|     78|        210|2.3.0          |
+
+
+## grieg_lyrical_pieces
+
+|fnames |last_mn|label_count|harmony_version|
+|-------|------:|----------:|---------------|
+|op12n01|     23|         43|2.3.0          |
+|op12n02|     79|        125|2.3.0          |
+|op12n03|     52|        110|2.3.0          |
+|op12n04|     72|         97|2.3.0          |
+|op12n05|     40|        109|2.3.0          |
+|op12n06|     56|        126|2.3.0          |
+|op12n07|     56|         74|2.3.0          |
+|op12n08|     32|         78|2.3.0          |
+|op38n01|     86|        141|2.3.0          |
+|op38n02|     41|         46|2.3.0          |
+|op38n03|     48|         87|2.3.0          |
+|op38n04|     36|         66|2.3.0          |
+|op38n05|     41|         70|2.3.0          |
+|op38n06|     47|        104|2.3.0          |
+|op38n07|     53|         55|2.3.0          |
+|op38n08|     84|        130|2.3.0          |
+|op43n01|     42|        102|2.3.0          |
+|op43n02|     30|        106|2.1.1          |
+|op43n03|     35|        106|2.1.1          |
+|op43n04|     36|         52|2.3.0          |
+|op43n05|     36|        107|2.1.1          |
+|op43n06|     72|        124|2.1.1          |
+|op47n01|    184|        134|2.1.1          |
+|op47n02|    126|        183|2.3.0          |
+|op47n03|    106|         93|2.3.0          |
+|op47n04|     38|         21|2.1.1          |
+|op47n05|     41|        109|2.3.0          |
+|op47n06|     74|         83|2.3.0          |
+|op47n07|     97|        147|2.1.1          |
+|op54n01|     61|        110|2.1.1          |
+|op54n02|    159|        286|2.3.0          |
+|op54n03|    194|        267|2.3.0          |
+|op54n04|     63|         91|2.3.0          |
+|op54n05|    204|        118|2.3.0          |
+|op54n06|     90|        171|2.3.0          |
+|op57n01|    146|        313|2.3.0          |
+|op57n02|    125|        214|2.1.1          |
+|op57n03|     67|        186|2.3.0          |
+|op57n04|     92|        116|2.3.0          |
+|op57n05|    169|        230|2.1.1          |
+|op57n06|     95|        156|2.3.0          |
+|op62n01|     90|         72|2.3.0          |
+|op62n02|     81|        163|2.3.0          |
+|op62n03|     65|         95|2.3.0          |
+|op62n04|     81|         96|2.1.1          |
+|op62n05|     62|         45|2.3.0          |
+|op62n06|    150|        173|2.3.0          |
+|op65n01|    173|        203|2.3.0          |
+|op65n02|     26|        125|2.1.1          |
+|op65n03|     58|         87|2.3.0          |
+|op65n04|     71|        112|2.3.0          |
+|op65n05|     48|        128|2.1.1          |
+|op65n06|    179|        229|2.1.1          |
+|op68n01|     56|        158|2.1.1          |
+|op68n02|     88|        172|2.1.1          |
+|op68n03|    114|        134|2.3.0          |
+|op68n04|     90|         85|2.3.0          |
+|op68n05|     43|        103|2.1.1          |
+|op68n06|    202|        190|2.1.1          |
+|op71n01|     95|        175|2.1.1          |
+|op71n02|     54|        107|2.3.0          |
+|op71n03|     79|         72|2.3.0          |
+|op71n04|     77|         87|2.3.0          |
+|op71n05|     98|        155|2.3.0          |
+|op71n06|     32|        131|2.1.1          |
+|op71n07|     74|         74|2.3.0          |
+
+
+## liszt_pelerinage
+
+|                                 fnames                                  |last_mn|label_count|harmony_version|
+|-------------------------------------------------------------------------|------:|----------:|---------------|
+|160.01_Chapelle_de_Guillaume_Tell                                        |     97|        174|2.3.0          |
+|160.02_Au_Lac_de_Wallenstadt                                             |    112|         84|2.3.0          |
+|160.03_Pastorale                                                         |     48|        200|2.3.0          |
+|160.04_Au_Bord_dUne_Source                                               |     66|        465|2.3.0          |
+|160.05_Orage                                                             |    160|        307|2.1.1          |
+|160.06_Vallee_dObermann                                                  |    216|        630|2.1.1          |
+|160.07_Eglogue                                                           |    117|        215|2.1.1          |
+|160.08_Le_Mal_du_Pays_(Heimweh)                                          |     70|        206|2.1.1          |
+|160.09_Les_Cloches_de_Geneve_(Nocturne)                                  |    188|        205|2.1.1          |
+|161.01_Sposalizio                                                        |    133|        237|2.1.1          |
+|161.02_Il_Pensieroso                                                     |     48|         88|2.3.0          |
+|161.03_Canzonetta_del_Salvator_Rosa                                      |     75|        274|2.3.0          |
+|161.04_Sonetto_47_del_Petrarca                                           |     95|        153|2.3.0          |
+|161.05_Sonetto_104_del_Petrarca                                          |     79|        121|2.3.0          |
+|161.06_Sonetto_123_del_Petrarca                                          |     84|        149|2.3.0          |
+|161.07_Apres_une_lecture_du_Dante                                        |    374|        632|2.3.0          |
+|162.01_Gondoliera                                                        |    125|        121|2.3.0          |
+|162.02_Canzone                                                           |     60|         98|2.3.0          |
+|162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana|    479|        762|2.1.1          |
+
+
+## medtner_tales
+
+|fnames |last_mn|label_count|harmony_version|
+|-------|------:|----------:|---------------|
+|op08n01|     81|        255|2.2.0          |
+|op14n01|     85|        274|2.2.0          |
+|op26n01|     47|        199|2.2.0          |
+|op26n02|     65|        177|2.2.0          |
+|op26n03|     81|        143|2.2.0          |
+|op26n04|     77|        275|2.2.0          |
+|op34n01|    237|        681|2.2.0          |
+|op34n02|     48|        215|2.2.0          |
+|op34n03|    144|        425|2.2.0          |
+|op34n04|     61|        365|2.2.0          |
+|op35n01|     75|        266|2.2.0          |
+|op35n02|    139|        382|2.2.0          |
+|op35n03|     80|        325|2.2.0          |
+|op35n04|    122|        470|2.2.0          |
+|op42n01|    134|        515|2.2.0          |
+|op42n02|     67|        205|2.2.0          |
+|op42n03|    182|        552|2.2.0          |
+|op48n01|    553|       1020|2.2.0          |
+|op48n02|    186|        307|2.2.0          |
+
+
+## schumann_kinderszenen
+
+|fnames|last_mn|label_count|harmony_version|
+|------|------:|----------:|---------------|
+|n01   |     22|         44|2.3.0          |
+|n02   |     40|        123|2.3.0          |
+|n03   |     31|         58|2.3.0          |
+|n04   |     17|         53|2.3.0          |
+|n05   |     16|         48|2.3.0          |
+|n06   |     24|         84|2.3.0          |
+|n07   |     24|         71|2.3.0          |
+|n08   |     32|         73|2.3.0          |
+|n09   |     24|         46|2.3.0          |
+|n10   |     57|         67|2.3.0          |
+|n11   |     48|        140|2.3.0          |
+|n12   |     32|         92|2.3.0          |
+|n13   |     25|         49|2.3.0          |
+
+
+## tchaikovsky_seasons
+
+|fnames |last_mn|label_count|harmony_version|
+|-------|------:|----------:|---------------|
+|op37a01|    103|        313|2.3.0          |
+|op37a02|    169|        278|2.3.0          |
+|op37a03|     46|        119|2.3.0          |
+|op37a04|     86|        210|2.3.0          |
+|op37a05|     88|        193|2.3.0          |
+|op37a06|     99|        263|2.3.0          |
+|op37a07|     56|        179|2.3.0          |
+|op37a08|    198|        514|2.3.0          |
+|op37a09|     90|        368|2.3.0          |
+|op37a10|     56|        189|2.1.1          |
+|op37a11|     83|        168|2.3.0          |
+|op37a12|    176|        262|2.1.1          |

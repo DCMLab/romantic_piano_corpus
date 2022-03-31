@@ -1,4 +1,4 @@
-
+Clone the repo and all submodule via `git clone --recurse-submodules -j8 git@github.com:DCMLab/romantic_piano_corpus.git`.
 
 # Overview
 

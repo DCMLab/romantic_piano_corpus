@@ -340,4 +340,4 @@ Clone the repo and all submodule via `git clone --recurse-submodules -j8 git@git
 |op37a09|     90|        368|2.3.0          |
 |op37a10|     56|        189|2.1.1          |
 |op37a11|     83|        168|2.3.0          |
-|op37a12|    176|        262|2.1.1          |
+|op37a12|    176|        261|2.3.0          |

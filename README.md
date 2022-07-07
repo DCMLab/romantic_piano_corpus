@@ -10,10 +10,10 @@ Clone the repo and all submodule via `git clone --recurse-submodules -j8 git@git
 |01-2  |     61|        200|2.3.0          |
 |01-3  |     73|        132|2.3.0          |
 |01-4  |    196|        355|2.3.0          |
-|02-1  |    336|        480|0.0.0          |
-|02-2  |     80|        244|0.0.0          |
-|02-3  |     68|        124|0.0.0          |
-|02-4  |    187|        339|0.0.0          |
+|02-1  |    336|        480|2.3.0          |
+|02-2  |     80|        244|2.3.0          |
+|02-3  |     68|        124|2.3.0          |
+|02-4  |    187|        339|2.3.0          |
 |03-1  |    257|        487|2.3.0          |
 |03-2  |     82|        233|2.3.0          |
 |03-3  |    127|        198|2.3.0          |
@@ -100,7 +100,7 @@ Clone the repo and all submodule via `git clone --recurse-submodules -j8 git@git
 |   fnames    |last_mn|label_count|harmony_version|
 |-------------|------:|----------:|---------------|
 |BI105-2op30-2|     64|        116|2.3.0          |
-|BI105-3op30-3|     95|        159|2.2.0          |
+|BI105-3op30-3|     95|        159|2.3.0          |
 |BI105-4op30-4|    139|        228|2.3.0          |
 |BI115-1op33-1|     48|         90|2.3.0          |
 |BI115-2op33-2|    135|        202|2.3.0          |
@@ -126,7 +126,7 @@ Clone the repo and all submodule via `git clone --recurse-submodules -j8 git@git
 |BI162-1op63-1|    102|        169|2.3.0          |
 |BI162-2op63-2|     56|         80|2.3.0          |
 |BI162-3op63-3|     76|        123|2.3.0          |
-|BI163op67-4  |     80|        119|2.2.0          |
+|BI163op67-4  |     80|        118|2.3.0          |
 |BI167op67-2  |     56|         78|2.3.0          |
 |BI168op68-4  |     40|         80|2.3.0          |
 |BI18op68-2   |     64|        127|2.3.0          |
@@ -153,7 +153,7 @@ Clone the repo and all submodule via `git clone --recurse-submodules -j8 git@git
 |BI89-3op24-3 |     43|         65|2.3.0          |
 |BI89-4op24-4 |    146|        294|2.3.0          |
 |BI93-1op67-1 |     60|         94|2.3.0          |
-|BI93-2op67-3 |     56|         97|2.1.1          |
+|BI93-2op67-3 |     56|         97|2.3.0          |
 
 
 ## debussy_suite_bergamasque

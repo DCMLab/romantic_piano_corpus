@@ -36,7 +36,12 @@ def concat_metadata(path):
     if len(tsv_paths) == 0:
         return pd.DataFrame()
     dfs = [pd.read_csv(tsv_path, sep='\t', dtype='string') for tsv_path in tsv_paths]
-    concatenated = pd.concat(dfs, keys=keys)
+    try:
+        concatenated = pd.concat(dfs, keys=keys)
+    except AssertionError:
+        info = 'Levels: ' + ', '.join(f"{key}: {df.index.nlevels} ({df.index.names})" for key, df in zip(keys, dfs))
+        print(f"Concatenation of DataFrames failed due to an alignment error. {info}")
+        raise
     try:
         rel_paths = [os.path.join(corpus, rel_path) for corpus, rel_path in zip(concatenated.index.get_level_values(0), concatenated.rel_paths.values)]
         concatenated.loc[:, 'rel_paths'] = rel_paths
@@ -57,14 +62,24 @@ def df2md(df, name=None):
     return writer
 
 def metadata2markdown(concatenated):
+    try:
+        fname_col = next(col for col in ('fname', 'fnames') if col in concatenated.columns)
+    except StopIteration:
+        raise ValueError(f"Metadata is expected to come with a column called 'fname' or (previously) 'fnames'.")
+    try:
+        rel_path_col = next(col for col in ('rel_path', 'rel_paths') if col in concatenated.columns)
+    except StopIteration:
+        raise ValueError(f"Metadata is expected to come with a column called 'rel_path' or (previously) 'rel_paths'.")
     rename4markdown = {
-        'fnames': 'file_name',
+        fname_col: 'file_name',
         'last_mn': 'measures',
         'label_count': 'labels',
         'harmony_version': 'standard',
     }
+    concatenated = concatenated.rename(columns=rename4markdown)
+    columns = list(rename4markdown.values()) + [rel_path_col]
     result = '# Overview'
-    for corpus_path, df in concatenated[rename4markdown.keys()].rename(rename4markdown).groupby(concatenated.rel_paths):
+    for corpus_path, df in concatenated[columns].groupby(rel_path_col):
         path, tail = os.path.split(corpus_path)
         heading = path if tail == 'MS3' else corpus_path
         heading = f"\n\n## {heading}\n\n"
@@ -93,14 +108,15 @@ def write_md(md_str, md_path):
     print(f"{msg} {md_path}")
 
 def write_tsv(df, tsv_path):
-    if df.shape[0] > 0:
-        df.to_csv(tsv_path, sep='\t', index=False)
-        print(f"Concatenated metadata written to {tsv_path}.")
-    else:
-        print(f"No metadata found in the child directories of {directory}.")
+    df.to_csv(tsv_path, sep='\t', index=False)
+    print(f"Concatenated metadata written to {tsv_path}.")
+        
 
 def main(args):
     concatenated = concat_metadata(args.dir)
+    if len(concatenated) == 0:
+        print(f"No metadata found in the child directories of {args.dir}.")
+        return
     tsv_path = os.path.join(args.out, 'concatenated_metadata.tsv')
     write_tsv(concatenated, tsv_path)
     md_str = metadata2markdown(concatenated)

@@ -1,3 +1,10 @@
+![Version](https://img.shields.io/github/v/release/DCMLab/romantic_piano_corpus?display_name=tag)
+[![DOI](https://zenodo.org/badge/383825233.svg)](https://zenodo.org/badge/latestdoi/383825233)
+![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/romantic_piano_corpus)
+![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-9cf)
+
+
+
 # An Annotated Corpus of Tonal Piano Music from the Long 19th Century
 
 This corpus has been created within the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs

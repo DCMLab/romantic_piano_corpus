@@ -3,7 +3,34 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/romantic_piano_corpus)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
 
-
+<!-- TOC -->
+* [An Annotated Corpus of Tonal Piano Music from the Long 19th Century](#an-annotated-corpus-of-tonal-piano-music-from-the-long-19th-century)
+  * [Getting the data](#getting-the-data)
+    * [With full version history](#with-full-version-history)
+    * [Without full version history](#without-full-version-history)
+  * [Data Formats](#data-formats)
+    * [Opening Scores](#opening-scores)
+    * [Opening TSV files in a spreadsheet](#opening-tsv-files-in-a-spreadsheet)
+    * [Loading TSV files in Python](#loading-tsv-files-in-python)
+  * [How to read `metadata.tsv`](#how-to-read-metadatatsv)
+    * [File information](#file-information)
+    * [Composition information](#composition-information)
+    * [Score information](#score-information)
+    * [Identifiers](#identifiers)
+  * [Generating all TSV files from the scores](#generating-all-tsv-files-from-the-scores)
+  * [Questions, Suggestions, Corrections, Bug Reports](#questions-suggestions-corrections-bug-reports)
+  * [License](#license)
+* [Overview](#overview)
+  * [beethoven_piano_sonatas](#beethovenpianosonatas)
+  * [chopin_mazurkas](#chopinmazurkas)
+  * [debussy_suite_bergamasque](#debussysuitebergamasque)
+  * [dvorak_silhouettes](#dvoraksilhouettes)
+  * [grieg_lyrical_pieces](#grieglyricalpieces)
+  * [liszt_pelerinage](#lisztpelerinage)
+  * [medtner_tales](#medtnertales)
+  * [schumann_kinderszenen](#schumannkinderszenen)
+  * [tchaikovsky_seasons](#tchaikovskyseasons)
+<!-- TOC -->
 
 # An Annotated Corpus of Tonal Piano Music from the Long 19th Century
 

@@ -402,7 +402,7 @@ Clone the repo and all submodule via `git clone --recurse-submodules -j8 git@git
 |op08n12  |      78|   210|2.3.0   |
 
 
-## grieg_lyrical_pieces
+## grieg_lyric_pieces
 
 |file_name|measures|labels|standard|
 |---------|-------:|-----:|--------|
@@ -482,12 +482,12 @@ Clone the repo and all submodule via `git clone --recurse-submodules -j8 git@git
 |160.02_Au_Lac_de_Wallenstadt                                             |     112|    84|2.3.0   |
 |160.03_Pastorale                                                         |      48|   200|2.3.0   |
 |160.04_Au_Bord_dUne_Source                                               |      66|   465|2.3.0   |
-|160.05_Orage                                                             |     160|   307|2.3.0   |
+|160.05_Orage                                                             |     160|   307|2.1.1   |
 |160.06_Vallee_dObermann                                                  |     216|   631|2.3.0   |
-|160.07_Eglogue                                                           |     117|   214|2.3.0   |
-|160.08_Le_Mal_du_Pays_(Heimweh)                                          |      70|   200|2.3.0   |
-|160.09_Les_Cloches_de_Geneve_(Nocturne)                                  |     188|   205|2.3.0   |
-|161.01_Sposalizio                                                        |     133|   237|2.3.0   |
+|160.07_Eglogue                                                           |     117|   214|2.1.1   |
+|160.08_Le_Mal_du_Pays_(Heimweh)                                          |      70|   200|2.1.1   |
+|160.09_Les_Cloches_de_Geneve_(Nocturne)                                  |     188|   205|2.1.1   |
+|161.01_Sposalizio                                                        |     133|   237|2.1.1   |
 |161.02_Il_Pensieroso                                                     |      48|    88|2.3.0   |
 |161.03_Canzonetta_del_Salvator_Rosa                                      |      75|   274|2.3.0   |
 |161.04_Sonetto_47_del_Petrarca                                           |      95|   153|2.3.0   |
@@ -496,29 +496,29 @@ Clone the repo and all submodule via `git clone --recurse-submodules -j8 git@git
 |161.07_Apres_une_lecture_du_Dante                                        |     373|   631|2.3.0   |
 |162.01_Gondoliera                                                        |     125|   121|2.3.0   |
 |162.02_Canzone                                                           |      60|    98|2.3.0   |
-|162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana|     479|   716|2.3.0   |
+|162.03_Tarantella_da_Guillaume_Louis_Cottrau._Presto_e_canzone_napolitana|     479|   716|2.1.1   |
 
 
 ## medtner_tales
 
 |file_name|measures|labels|standard|
 |---------|-------:|-----:|--------|
-|op08n01  |      81|   213|2.3.0   |
-|op14n01  |      85|   265|2.3.0   |
-|op26n01  |      47|   180|2.3.0   |
-|op26n02  |      65|   166|2.3.0   |
-|op26n03  |      81|   116|2.3.0   |
-|op26n04  |      77|   300|2.3.0   |
-|op34n01  |     237|   669|2.3.0   |
-|op34n02  |      48|   195|2.3.0   |
-|op34n03  |     144|   408|2.3.0   |
+|op08n01  |      81|   213|2.2.0   |
+|op14n01  |      85|   265|2.2.0   |
+|op26n01  |      47|   180|2.2.0   |
+|op26n02  |      65|   166|2.2.0   |
+|op26n03  |      81|   116|2.2.0   |
+|op26n04  |      77|   300|2.2.0   |
+|op34n01  |     237|   669|2.2.0   |
+|op34n02  |      48|   195|2.2.0   |
+|op34n03  |     144|   408|2.2.0   |
 |op34n04  |      61|   323|2.2.0   |
-|op35n01  |      75|   272|2.3.0   |
-|op35n02  |     139|   422|2.3.0   |
-|op35n03  |      80|   320|2.3.0   |
-|op35n04  |     122|   345|2.3.0   |
-|op42n01  |     134|   479|2.3.0   |
-|op42n02  |      67|   178|2.3.0   |
+|op35n01  |      75|   272|2.2.0   |
+|op35n02  |     139|   422|2.2.0   |
+|op35n03  |      80|   320|2.2.0   |
+|op35n04  |     122|   345|2.2.0   |
+|op42n01  |     134|   479|2.2.0   |
+|op42n02  |      67|   178|2.2.0   |
 |op42n03  |     182|   552|2.2.0   |
 |op48n01  |     553|  1020|2.2.0   |
 |op48n02  |     186|   307|2.2.0   |

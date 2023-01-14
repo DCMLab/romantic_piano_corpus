@@ -58,6 +58,6 @@
             "scheme": "url",
             "identifier": "https://github.com/DCMLab/romantic_piano_corpus/tree/v1.1",
             "relation": "isSupplementTo"
-        },
+        }
     ]
 }

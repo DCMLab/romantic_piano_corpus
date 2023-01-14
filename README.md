@@ -25,7 +25,7 @@
   * [chopin_mazurkas](#chopinmazurkas)
   * [debussy_suite_bergamasque](#debussysuitebergamasque)
   * [dvorak_silhouettes](#dvoraksilhouettes)
-  * [grieg_lyrical_pieces](#grieglyricalpieces)
+  * [grieg_lyric_pieces](#grieglyricpieces)
   * [liszt_pelerinage](#lisztpelerinage)
   * [medtner_tales](#medtnertales)
   * [schumann_kinderszenen](#schumannkinderszenen)

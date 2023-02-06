@@ -87,7 +87,7 @@ as ZIP files individually:
 * [liszt_pelerinage](https://github.com/DCMLab/liszt_pelerinage/archive/refs/heads/main.zip)
 * [medtner_tales](https://github.com/DCMLab/medtner_tales/archive/refs/heads/main.zip)
 * [schumann_kinderszenen](https://github.com/DCMLab/schumann_kinderszenen/archive/refs/heads/main.zip)
-* [tchaikovsky_seaons](https://github.com/DCMLab/tchaikovsky_seaons/archive/refs/heads/main.zip)
+* [tchaikovsky_seasons](https://github.com/DCMLab/tchaikovsky_seasons/archive/refs/heads/main.zip)
 
 
 ## Data Formats

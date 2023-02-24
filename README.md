@@ -212,11 +212,9 @@ For questions, remarks etc., please create an issue and feel free to fork and su
 
 ## License
 
-Creative Commons Attribution-ShareAlike 4.0 International License ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 ([CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)).
 
-
-
-Clone the repo and all submodule via `git clone --recurse-submodules -j8 git@github.com:DCMLab/romantic_piano_corpus.git`.
+![cc-by-nc-sa-image](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
 
 # Overview
 

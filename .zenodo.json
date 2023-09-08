@@ -20,7 +20,7 @@
         }
     ],
     "upload_type": "dataset",
-    "version": "v1.1",
+    "version": "v2.0",
     "communities": [
         {
             "identifier": "dcml"
@@ -56,8 +56,67 @@
     "related_identifiers": [
         {
             "scheme": "url",
-            "identifier": "https://github.com/DCMLab/romantic_piano_corpus/tree/v1.1",
-            "relation": "isSupplementTo"
+            "identifier": "https://github.com/DCMLab/romantic_piano_corpus/tree/v2.0",
+            "relation": "references"
+        },
+        {
+            "scheme": "url",
+            "identifier": "https://dcmlab.github.io/romantic_piano_corpus/",
+            "relation": "isDocumentedBy"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.5281/zenodo.7473560",
+            "relation": "hasPart",
+            "resource_type": "dataset"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.5281/zenodo.7473566",
+            "relation": "hasPart",
+            "resource_type": "dataset"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.5281/zenodo.7473568",
+            "relation": "hasPart",
+            "resource_type": "dataset"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.5281/zenodo.7473576",
+            "relation": "hasPart",
+            "resource_type": "dataset"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.5281/zenodo.7473580",
+            "relation": "hasPart",
+            "resource_type": "dataset"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.5281/zenodo.7473528",
+            "relation": "hasPart",
+            "resource_type": "dataset"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.5281/zenodo.7473582",
+            "relation": "hasPart",
+            "resource_type": "dataset"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.5281/zenodo.7473586",
+            "relation": "hasPart",
+            "resource_type": "dataset"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.5281/zenodo.7473578",
+            "relation": "hasPart",
+            "resource_type": "dataset"
         }
     ]
 }

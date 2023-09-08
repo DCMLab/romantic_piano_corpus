@@ -3,8 +3,18 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/romantic_piano_corpus)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
 
+This is a README file for a data repository originating from the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora)
+and serves as welcome page for both 
+
+* the GitHub repo [https://github.com/DCMLab/romantic_piano_corpus](https://github.com/DCMLab/romantic_piano_corpus) and the corresponding
+* documentation page [https://dcmlab.github.io/romantic_piano_corpus](https://dcmlab.github.io/romantic_piano_corpus)
+
+For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/romantic_piano_corpus/introduction).
+
+
 <!-- TOC -->
 * [An Annotated Corpus of Tonal Piano Music from the Long 19th Century](#an-annotated-corpus-of-tonal-piano-music-from-the-long-19th-century)
+  * [Version history](#version-history)
   * [Getting the data](#getting-the-data)
     * [With full version history](#with-full-version-history)
     * [Without full version history](#without-full-version-history)
@@ -37,16 +47,6 @@
 This corpus has been created within the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
 the [DCML harmony annotation standard](https://github.com/DCMLab/standards).
 
-**Version 1** has been released for submitting it as part of the data
-report `Hentschel, J., Rammos, Y., Neuwirth, M., Rohrmeier, M. (forthcoming). An Annotated Corpus of Tonal Piano Music from the Long 19th Century`
-that accompanies nine corpora grouped under the DOI [10.5281/zenodo.7483349](https://doi.org/10.5281/zenodo.7483349).
-
-**Version 1.1** comes with a complete set of metadata and score headers. Among more accurate composition dates, the
-metadata now include URIs that identify the compositions in terms of
-the [Virtual International Authority File (VIAF)](https://viaf.org/), [Wikidata](https://www.wikidata.org), [IMSLP](https://imslp.org/)
-and [MusicBrainz](https://musicbrainz.org/). The data has been re-extracted from the scores
-using [ms3 1.1.1](https://pypi.org/project/ms3/).
-
 The publication covers the following corpora (the DOI links always point at the latest version respectively):
 
 * [Ludwig van Beethoven - Piano Sonatas](https://doi.org/10.5281/zenodo.7473560)
@@ -58,6 +58,11 @@ The publication covers the following corpora (the DOI links always point at the 
 * [Robert Schumann - Kinderszenen](https://doi.org/10.5281/zenodo.7473582)
 * [Pyotr Tchaikovsky - The Seasons](https://doi.org/10.5281/zenodo.7473586)
 * [Edvard Grieg - Lyric Pieces](https://doi.org/10.5281/zenodo.7473578)
+
+## Version history
+
+See the [GitHub releases](https://github.com/DCMLab/romantic_piano_corpus/releases).
+
 
 ## Getting the data
 

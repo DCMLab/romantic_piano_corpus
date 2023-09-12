@@ -1,1 +1,0 @@
-* [Corpus state](stats.md)
